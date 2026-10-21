@@ -6,7 +6,7 @@
 
 [English](README_EN.md) · [手机配置图文教程](docs/SETUP_CN.md) · [构建](docs/BUILDING.md) · [生成角色](docs/CHARACTERS_CN.md) · [项目说明书](docs/PROJECT_MANUAL_CN.md)
 
-上游项目：本仓库由 [Octop-muse-esp-mosaico](https://github.com/samyeei/Octop-muse-esp-mosaico) 改造而来，把后端从自托管 Octop 换成 Hermes agent 的 [gadget 协议](https://github.com/Adolanium/hermes-gadget-sdk)（`hermes-gadget.v1`）。
+
 
 ## 界面预览
 
