@@ -1,0 +1,13 @@
+Muse Charm · Mosaico
+
+Application source: Apache-2.0.
+Hermes Gadget SDK: Adolanium/hermes-gadget-sdk, MIT. The device protocol this
+firmware speaks and the auth test vectors in tools/tests/setup_tests.c follow
+its docs/protocol.md and plugin/protocol.py (see projects/hermes_companion/tools/hermes_contract.json).
+Retired Muse Gadget SDK reference copy: facebookincubator/muse-gadget-sdk,
+Apache-2.0, commit 693cde9a884ad1edc87251b9f8944815f8de4809, kept in
+projects/hermes_companion/vendor/ outside the build graph.
+Noto Sans SC: SIL Open Font License 1.1 (ui/fonts/OFL.txt).
+DejaVu fonts: upstream font license (ui/fonts/LICENSE).
+Mosaico components are separate pinned submodules; their own licenses apply.
+Original cream plush illustrations were AI-generated for this project; no official Muse avatar assets are included.

@@ -1,0 +1,1407 @@
+[
+ {
+  "t": 0.047,
+  "dir": "->",
+  "kind": "hello",
+  "size": 342,
+  "note": "",
+  "data": {
+   "type": "hello",
+   "proto": 1,
+   "device_id": "hg-c591c90fef0f1746",
+   "name": "Mosaico Probe A",
+   "board": "esp-mosaico",
+   "firmware": "probe",
+   "caps": {
+    "display": {
+     "width": 480,
+     "height": 480,
+     "color": true,
+     "charset": "utf-8",
+     "text_cols": 22,
+     "text_rows": 10
+    },
+    "mic": {
+     "rate": 16000,
+     "format": "pcm16"
+    },
+    "inputs": [
+     "talk"
+    ],
+    "talk_mode": "hold"
+   }
+  }
+ },
+ {
+  "t": 0.047,
+  "dir": "<-",
+  "kind": "challenge",
+  "size": 77,
+  "note": "",
+  "data": {
+   "type": "challenge",
+   "nonce": "MGLOUzlSIx6SUom19p2Y3Q==",
+   "enrolled": false
+  }
+ },
+ {
+  "t": 0.047,
+  "dir": "->",
+  "kind": "auth",
+  "size": 71,
+  "note": "",
+  "data": {
+   "type": "auth",
+   "key": "HyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4="
+  }
+ },
+ {
+  "t": 0.062,
+  "dir": "<-",
+  "kind": "welcome",
+  "size": 102,
+  "note": "",
+  "data": {
+   "type": "welcome",
+   "session": "1c74e93b04c1",
+   "paired": true,
+   "heartbeat_s": 20,
+   "server": "hermes",
+   "proto": 1
+  }
+ },
+ {
+  "t": 0.062,
+  "dir": "==",
+  "kind": "welcome",
+  "size": 0,
+  "note": "paired=True heartbeat_s=20"
+ },
+ {
+  "t": 0.062,
+  "dir": "->",
+  "kind": "text",
+  "size": 57,
+  "note": "",
+  "data": {
+   "type": "text",
+   "id": "t1",
+   "text": "**你好** Hermes"
+  }
+ },
+ {
+  "t": 0.062,
+  "dir": "<-",
+  "kind": "turn.start",
+  "size": 46,
+  "note": "",
+  "data": {
+   "type": "turn.start",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.062,
+  "dir": "<-",
+  "kind": "status",
+  "size": 35,
+  "note": "",
+  "data": {
+   "type": "status",
+   "text": "Thinking"
+  }
+ },
+ {
+  "t": 0.453,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 60,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.547,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 66,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said:",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.64,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 79,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said: 你好",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.734,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 86,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said: 你好 Hermes",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.828,
+  "dir": "<-",
+  "kind": "reply",
+  "size": 80,
+  "note": "",
+  "data": {
+   "type": "reply",
+   "text": "You said: 你好 Hermes",
+   "turn": "1c74e93b04c1:t1"
+  }
+ },
+ {
+  "t": 0.828,
+  "dir": "<-",
+  "kind": "turn.end",
+  "size": 64,
+  "note": "",
+  "data": {
+   "type": "turn.end",
+   "turn": "1c74e93b04c1:t1",
+   "outcome": "success"
+  }
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "audio.start",
+  "size": 98,
+  "note": "",
+  "data": {
+   "type": "audio.start",
+   "id": "a1",
+   "stream": 1,
+   "rate": 16000,
+   "format": "pcm16",
+   "mode": "hold"
+  }
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=0 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=1 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=2 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=3 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=4 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=5 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=6 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=7 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=8 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=9 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=10 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=11 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=12 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=13 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=14 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=15 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=16 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=17 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=18 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=19 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=20 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=21 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=22 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=23 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=24 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=25 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=26 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=27 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=28 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=29 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=30 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=31 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=32 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=33 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=34 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=35 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=36 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=37 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=38 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=39 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=40 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=41 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=42 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=43 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=44 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=45 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=46 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=47 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=48 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=49 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=50 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=51 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=52 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=53 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=54 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=55 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=56 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=57 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=58 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=59 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=60 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=61 pcm=512B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 260,
+  "note": "seq=62 pcm=256B"
+ },
+ {
+  "t": 0.843,
+  "dir": "->",
+  "kind": "audio.end",
+  "size": 67,
+  "note": "",
+  "data": {
+   "type": "audio.end",
+   "id": "a1",
+   "stream": 1,
+   "duration_ms": 1000
+  }
+ },
+ {
+  "t": 0.843,
+  "dir": "<-",
+  "kind": "turn.start",
+  "size": 46,
+  "note": "",
+  "data": {
+   "type": "turn.start",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 0.843,
+  "dir": "<-",
+  "kind": "status",
+  "size": 35,
+  "note": "",
+  "data": {
+   "type": "status",
+   "text": "Thinking"
+  }
+ },
+ {
+  "t": 1.25,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 58,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.343,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 64,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.437,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 68,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.531,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 76,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.625,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 79,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds of",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.718,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 85,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds of audio",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.812,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 91,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds of audio (peak",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 1.906,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 94,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds of audio (peak -9",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 2.0,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 101,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "I heard 1.0 seconds of audio (peak -9 dBFS).",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "<-",
+  "kind": "reply",
+  "size": 95,
+  "note": "",
+  "data": {
+   "type": "reply",
+   "text": "I heard 1.0 seconds of audio (peak -9 dBFS).",
+   "turn": "1c74e93b04c1:a1"
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "<-",
+  "kind": "turn.end",
+  "size": 64,
+  "note": "",
+  "data": {
+   "type": "turn.end",
+   "turn": "1c74e93b04c1:a1",
+   "outcome": "success"
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "audio.start",
+  "size": 98,
+  "note": "",
+  "data": {
+   "type": "audio.start",
+   "id": "a2",
+   "stream": 2,
+   "rate": 16000,
+   "format": "pcm16",
+   "mode": "hold"
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=0 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=1 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=2 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=3 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=4 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 516,
+  "note": "seq=5 pcm=512B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "binary[audio]",
+  "size": 132,
+  "note": "seq=6 pcm=128B"
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "audio.end",
+  "size": 66,
+  "note": "",
+  "data": {
+   "type": "audio.end",
+   "id": "a2",
+   "stream": 2,
+   "duration_ms": 100
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "<-",
+  "kind": "notice",
+  "size": 87,
+  "note": "",
+  "data": {
+   "type": "notice",
+   "text": "Didn't catch that - hold the button while speaking",
+   "ttl_s": 8
+  }
+ },
+ {
+  "t": 2.093,
+  "dir": "->",
+  "kind": "text",
+  "size": 57,
+  "note": "",
+  "data": {
+   "type": "text",
+   "id": "t2",
+   "text": "long reply please"
+  }
+ },
+ {
+  "t": 2.109,
+  "dir": "<-",
+  "kind": "turn.start",
+  "size": 46,
+  "note": "",
+  "data": {
+   "type": "turn.start",
+   "turn": "1c74e93b04c1:t2"
+  }
+ },
+ {
+  "t": 2.109,
+  "dir": "<-",
+  "kind": "status",
+  "size": 35,
+  "note": "",
+  "data": {
+   "type": "status",
+   "text": "Thinking"
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 60,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You",
+   "turn": "1c74e93b04c1:t2"
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "->",
+  "kind": "cancel",
+  "size": 18,
+  "note": "打断",
+  "data": {
+   "type": "cancel"
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "<-",
+  "kind": "turn.end",
+  "size": 66,
+  "note": "",
+  "data": {
+   "type": "turn.end",
+   "turn": "1c74e93b04c1:t2",
+   "outcome": "cancelled"
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "->",
+  "kind": "ping",
+  "size": 29,
+  "note": "",
+  "data": {
+   "type": "ping",
+   "ts": 12345
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "<-",
+  "kind": "pong",
+  "size": 26,
+  "note": "",
+  "data": {
+   "type": "pong",
+   "ts": 12345
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "->",
+  "kind": "hello",
+  "size": 342,
+  "note": "",
+  "data": {
+   "type": "hello",
+   "proto": 1,
+   "device_id": "hg-c591c90fef0f1746",
+   "name": "Mosaico Probe A",
+   "board": "esp-mosaico",
+   "firmware": "probe",
+   "caps": {
+    "display": {
+     "width": 480,
+     "height": 480,
+     "color": true,
+     "charset": "utf-8",
+     "text_cols": 22,
+     "text_rows": 10
+    },
+    "mic": {
+     "rate": 16000,
+     "format": "pcm16"
+    },
+    "inputs": [
+     "talk"
+    ],
+    "talk_mode": "hold"
+   }
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "<-",
+  "kind": "challenge",
+  "size": 76,
+  "note": "",
+  "data": {
+   "type": "challenge",
+   "nonce": "K1Qdb6/o18HrBshukv5miQ==",
+   "enrolled": true
+  }
+ },
+ {
+  "t": 2.5,
+  "dir": "->",
+  "kind": "auth",
+  "size": 71,
+  "note": "",
+  "data": {
+   "type": "auth",
+   "mac": "kUwXnS68DpbYW4GPJlsAVs8tZGyhIYLzY/0KtxeBLq8="
+  }
+ },
+ {
+  "t": 2.515,
+  "dir": "<-",
+  "kind": "welcome",
+  "size": 102,
+  "note": "",
+  "data": {
+   "type": "welcome",
+   "session": "b40dc552bf84",
+   "paired": true,
+   "heartbeat_s": 20,
+   "server": "hermes",
+   "proto": 1
+  }
+ },
+ {
+  "t": 2.515,
+  "dir": "==",
+  "kind": "re-hmac",
+  "size": 0,
+  "note": "enrolled reconnect OK"
+ },
+ {
+  "t": 2.515,
+  "dir": "->",
+  "kind": "hello",
+  "size": 342,
+  "note": "",
+  "data": {
+   "type": "hello",
+   "proto": 1,
+   "device_id": "hg-8ace682be77aa373",
+   "name": "Mosaico Probe B",
+   "board": "esp-mosaico",
+   "firmware": "probe",
+   "caps": {
+    "display": {
+     "width": 480,
+     "height": 480,
+     "color": true,
+     "charset": "utf-8",
+     "text_cols": 22,
+     "text_rows": 10
+    },
+    "mic": {
+     "rate": 16000,
+     "format": "pcm16"
+    },
+    "inputs": [
+     "talk"
+    ],
+    "talk_mode": "hold"
+   }
+  }
+ },
+ {
+  "t": 2.515,
+  "dir": "<-",
+  "kind": "challenge",
+  "size": 77,
+  "note": "",
+  "data": {
+   "type": "challenge",
+   "nonce": "SdRcaPRzex05EmtSh6I3NA==",
+   "enrolled": false
+  }
+ },
+ {
+  "t": 2.515,
+  "dir": "->",
+  "kind": "auth",
+  "size": 71,
+  "note": "",
+  "data": {
+   "type": "auth",
+   "key": "Pj9AQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVpbXF0="
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "<-",
+  "kind": "welcome",
+  "size": 103,
+  "note": "",
+  "data": {
+   "type": "welcome",
+   "session": "d389aed08ec8",
+   "paired": false,
+   "heartbeat_s": 20,
+   "server": "hermes",
+   "proto": 1
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "<-",
+  "kind": "pairing",
+  "size": 104,
+  "note": "",
+  "data": {
+   "type": "pairing",
+   "code": "QUHDM37A",
+   "command": "approve QUHDM37A   (type this in the devserver console)"
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "==",
+  "kind": "pairing",
+  "size": 0,
+  "note": "code=QUHDM37A command=approve QUHDM37A   (type this in the devserver console)"
+ },
+ {
+  "t": 2.531,
+  "dir": "<-",
+  "kind": "paired",
+  "size": 17,
+  "note": "",
+  "data": {
+   "type": "paired"
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "->",
+  "kind": "text",
+  "size": 52,
+  "note": "",
+  "data": {
+   "type": "text",
+   "id": "t1",
+   "text": "paired hello"
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "<-",
+  "kind": "turn.start",
+  "size": 46,
+  "note": "",
+  "data": {
+   "type": "turn.start",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 2.531,
+  "dir": "<-",
+  "kind": "status",
+  "size": 35,
+  "note": "",
+  "data": {
+   "type": "status",
+   "text": "Thinking"
+  }
+ },
+ {
+  "t": 2.937,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 60,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 3.031,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 66,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said:",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 3.125,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 73,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said: paired",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 3.218,
+  "dir": "<-",
+  "kind": "reply.delta",
+  "size": 79,
+  "note": "",
+  "data": {
+   "type": "reply.delta",
+   "text": "You said: paired hello",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 3.312,
+  "dir": "<-",
+  "kind": "reply",
+  "size": 73,
+  "note": "",
+  "data": {
+   "type": "reply",
+   "text": "You said: paired hello",
+   "turn": "d389aed08ec8:t1"
+  }
+ },
+ {
+  "t": 3.312,
+  "dir": "<-",
+  "kind": "turn.end",
+  "size": 64,
+  "note": "",
+  "data": {
+   "type": "turn.end",
+   "turn": "d389aed08ec8:t1",
+   "outcome": "success"
+  }
+ },
+ {
+  "t": 3.328,
+  "dir": "->",
+  "kind": "hello",
+  "size": 342,
+  "note": "",
+  "data": {
+   "type": "hello",
+   "proto": 1,
+   "device_id": "hg-8ace682be77aa373",
+   "name": "Mosaico Probe B",
+   "board": "esp-mosaico",
+   "firmware": "probe",
+   "caps": {
+    "display": {
+     "width": 480,
+     "height": 480,
+     "color": true,
+     "charset": "utf-8",
+     "text_cols": 22,
+     "text_rows": 10
+    },
+    "mic": {
+     "rate": 16000,
+     "format": "pcm16"
+    },
+    "inputs": [
+     "talk"
+    ],
+    "talk_mode": "hold"
+   }
+  }
+ },
+ {
+  "t": 3.328,
+  "dir": "<-",
+  "kind": "challenge",
+  "size": 76,
+  "note": "",
+  "data": {
+   "type": "challenge",
+   "nonce": "aO1sUjTEYtbnhX68FNkZXQ==",
+   "enrolled": true
+  }
+ },
+ {
+  "t": 3.328,
+  "dir": "->",
+  "kind": "auth",
+  "size": 71,
+  "note": "",
+  "data": {
+   "type": "auth",
+   "mac": "dZBmUxAGRWOt6ZtMgDo1yqV7mL18fDTBmLFd+C4KuZU="
+  }
+ },
+ {
+  "t": 3.328,
+  "dir": "<-",
+  "kind": "welcome",
+  "size": 102,
+  "note": "",
+  "data": {
+   "type": "welcome",
+   "session": "c7e81c23e64b",
+   "paired": true,
+   "heartbeat_s": 20,
+   "server": "hermes",
+   "proto": 1
+  }
+ },
+ {
+  "t": 3.328,
+  "dir": "==",
+  "kind": "re-paired",
+  "size": 0,
+  "note": "HMAC 重连后仍 paired"
+ },
+ {
+  "t": 3.343,
+  "dir": "->",
+  "kind": "hello",
+  "size": 112,
+  "note": "",
+  "data": {
+   "type": "hello",
+   "proto": 1,
+   "device_id": "hg-8ace682be77aa373",
+   "name": "evil",
+   "board": "x",
+   "firmware": "0"
+  }
+ },
+ {
+  "t": 3.343,
+  "dir": "<-",
+  "kind": "challenge",
+  "size": 76,
+  "note": "",
+  "data": {
+   "type": "challenge",
+   "nonce": "CwA0rtkHxQKl1RRPVvOcmg==",
+   "enrolled": true
+  }
+ },
+ {
+  "t": 3.343,
+  "dir": "->",
+  "kind": "auth",
+  "size": 45,
+  "note": "",
+  "data": {
+   "type": "auth",
+   "mac": "AAAAbbbbCCCCdddd=="
+  }
+ },
+ {
+  "t": 3.343,
+  "dir": "<-",
+  "kind": "error",
+  "size": 177,
+  "note": "",
+  "data": {
+   "type": "error",
+   "code": "auth_failed",
+   "message": "device key does not match the enrolled key; on the Hermes host run 'hermes gadget forget hg-8ace682be77aa373' to re-enroll"
+  }
+ },
+ {
+  "t": 3.343,
+  "dir": "==",
+  "kind": "auth_failed",
+  "size": 0,
+  "note": "code=auth_failed"
+ }
+]
